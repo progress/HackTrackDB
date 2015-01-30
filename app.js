@@ -119,10 +119,8 @@ app.post('/verifyaccount', function(req, res) {
 	if (req.headers.auth === auth) {
 		reg_db.registration.find({ "email": email }, function(err, records) {
 			if (records.length === 0) {
-				console.log("in here");
 				res.status(200).send('Email is not registered');
 			} else {
-				console.log("actually in here");
 				res.status(201).send('Email is registered');
 			}
 		});
