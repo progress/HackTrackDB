@@ -1,0 +1,8 @@
+Instructions.txt
+
+HackTrackDB2
+
+While building HackTrackDB, I used some sensitive data (http authentication code, Modulus URI) that new users must enter for themselves. Please follow the instructions below to do so.
+
+Line 7: Enter your database's URI (I personally recommend hosting on Modulus)
+Lines 32, 67, 98, 113, 136, 164, 191, 209, 229, 251: Enter your authentication code - same one must be used on the HackTrack application
