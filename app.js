@@ -1,3 +1,11 @@
+/*
+// app.js
+// HackTrack
+//
+// Copyright 2015 (c) Progress Software
+// Author: Akhil Nistala
+*/
+
 var http = require('http');
 var mongojs = require('mongojs');
 var app = require('express')();
